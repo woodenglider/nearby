@@ -1,0 +1,5 @@
+/myproject/NearBy/Classes/SecondViewController.m:220: warning: property 'editingTableViewCell' requires method '-editingTableViewCell' to be defined - use @synthesize, @dynamic or provide a method implementation
+/myproject/NearBy/Classes/SecondViewController.m:220: warning: property 'editingTableViewCell' requires the method 'setEditingTableViewCell:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/myproject/NearBy/Classes/SecondViewController.m:220: warning: incomplete implementation of class 'SecondViewController'
+/myproject/NearBy/Classes/SecondViewController.m:220: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+/myproject/NearBy/Classes/SecondViewController.m:220: warning: class 'SecondViewController' does not fully implement the 'UITableViewDataSource' protocol

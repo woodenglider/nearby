@@ -1,0 +1,1978 @@
+TNearBy
+v7
+r0
+t323745657.544465
+cCheck dependencies
+cCpResource build/Debug-iphoneos/NearBy.app/ResourceRules.plist /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist NearBy-Info.plist
+cCompileXIB /myproject/NearBy/MainWindow.xib
+cCompileXIB /myproject/NearBy/Classes/PeopleInMap.xib
+cCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Default.png Default.png
+cCompileXIB /myproject/NearBy/Classes/MessageNearBy.xib
+cCompileXIB /myproject/NearBy/Classes/More.xib
+cCompileXIB /myproject/NearBy/Classes/PrivateMessage.xib
+cCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow.png Classes/blackArrow.png
+cCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow@2x.png Classes/blackArrow@2x.png
+cCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow.png Classes/blueArrow.png
+cCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow@2x.png Classes/blueArrow@2x.png
+cCompileXIB /myproject/NearBy/Classes/UserMessageController.xib
+cCpResource build/Debug-iphoneos/NearBy.app/0.jpeg Classes/0.jpeg
+cCompileXIB /myproject/NearBy/Classes/UserMessageDetailController.xib
+cCompileXIB /myproject/NearBy/Classes/TableCellMessageController.xib
+cProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o /myproject/NearBy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o /myproject/NearBy/Classes/NearByAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMapController.o /myproject/NearBy/Classes/PeopleInMapController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearByController.o /myproject/NearBy/Classes/MessageNearByController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/More.o /myproject/NearBy/Classes/More.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PrivateMessage.o /myproject/NearBy/Classes/PrivateMessage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/EGORefreshTableHeaderView.o /myproject/NearBy/Classes/EGORefreshTableHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/DisplayMap.o /myproject/NearBy/Classes/DisplayMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIAuthenticationDialog.o /myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataCompressor.o /myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataDecompressor.o /myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDownloadCache.o /myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIFormDataRequest.o /myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIHTTPRequest.o /myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIInputStream.o /myproject/NearBy/Classes/asi_http_request/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASINetworkQueue.o /myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/Reachability.o /myproject/NearBy/Classes/asi_http_request/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_PrivateExtensions.o /myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument.o /myproject/NearBy/Classes/CXMLDocument.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_CreationExtensions.o /myproject/NearBy/Classes/CXMLElement_CreationExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_ElementTreeExtensions.o /myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement.o /myproject/NearBy/Classes/CXMLElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_PrivateExtensions.o /myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_XPathExtensions.o /myproject/NearBy/Classes/CXMLNode_XPathExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode.o /myproject/NearBy/Classes/CXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_CreationExtensions.o /myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_CreationExtensions.o /myproject/NearBy/Classes/CXMLNode_CreationExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CTidy.o /myproject/NearBy/Classes/CTidy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageController.o /myproject/NearBy/Classes/UserMessageController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageDetailController.o /myproject/NearBy/Classes/UserMessageDetailController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/TableCellViewMessage.o /myproject/NearBy/Classes/TableCellViewMessage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy normal armv6
+cGenerateDSYMFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+cProcessProductPackaging "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" /myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+cTouch /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+cProcessProductPackaging /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+cCodeSign /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B2FA6BF0000000000000110
+t1261414079
+s272
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+c000000004B2B3B9F00000000000000DD
+t1261124511
+s221
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004B2B548B0000000000290670
+t1261130891
+s2688624
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004B2B539700000000000004CF
+t1261130647
+s1231
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004B2B516F0000000000000A99
+t1261130095
+s2713
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004B2B61E30000000000084510
+t1261134307
+s541968
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004B2B61D300000000000001AF
+t1261134291
+s431
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
+c000000004B2B652A00000000000001D5
+t1261135146
+s469
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004B2B652A000000000000017D
+t1261135146
+s381
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004B2B656100000000001CD6E0
+t1261135201
+s1890016
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004B2B553B00000000000000C7
+t1261131067
+s199
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004B2B553C0000000000026020
+t1261131068
+s155680
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B2B5700000000000000007D
+t1261131520
+s125
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B2B57EF00000000001C27F0
+t1261131759
+s1845232
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004B2B52CB00000000000E3B80
+t1261130443
+s932736
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004B2B53060000000000001A78
+t1261130502
+s6776
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004B2B532F00000000000D7460
+t1261130543
+s881760
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004B2B3EC60000000000000DE2
+t1261125318
+s3554
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/arpa/inet.h
+c000000004B2B3EF80000000000001533
+t1261125368
+s5427
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/ifaddrs.h
+c000000004B2B3F030000000000000782
+t1261125379
+s1922
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004B2B53D300000000000098A9
+t1261130707
+s39081
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/libxml/tree.h
+c000000004B2B53D30000000000008F14
+t1261130707
+s36628
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/libxml/xmlIO.h
+c000000004B2B53D400000000000028D0
+t1261130708
+s10448
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004B2B53D30000000000003F47
+t1261130707
+s16199
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004B2B53D30000000000004BF8
+t1261130707
+s19448
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/netdb.h
+c000000004B2B3F270000000000003057
+t1261125415
+s12375
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/netinet/in.h
+c000000004B2B49E4000000000000535B
+t1261128164
+s21339
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/netinet6/in6.h
+c000000004B2B49E50000000000004F5B
+t1261128165
+s20315
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/stdio.h
+c000000004B2B3F100000000000003D1D
+t1261125392
+s15645
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/sys/socket.h
+c000000004B2B49EE0000000000005660
+t1261128174
+s22112
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/zlib.h
+c000000004B2B499300000000000102A5
+t1261128083
+s66213
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libxml2.2.7.3.dylib
+c000000004B2B53D500000000002FB320
+t1261130709
+s3126048
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libz.1.2.3.dylib
+c000000004B2B499500000000000335C0
+t1261128085
+s210368
+
+N/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision
+c000000004D8C963D0000000000001C5F
+t1301059133
+s7263
+
+N/myproject/NearBy/Classes/0.jpeg
+c000000004D8E9FE1000000000000156A
+t1301192673
+s5482
+
+N/myproject/NearBy/Classes/CTidy.h
+c000000004BD1C1580000000000000762
+t1272037720
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/myproject/NearBy/Classes/CTidy.m
+c000000004D8DDB480000000000001D6D
+t1301142344
+s7533
+i"CTidy.h"
+
+N/myproject/NearBy/Classes/CXMLDocument.h
+c000000004BD1C1580000000000000A9A
+t1272037720
+s2714
+i"CXMLNode.h"
+
+N/myproject/NearBy/Classes/CXMLDocument.m
+c000000004BD1C1580000000000001BF7
+t1272037720
+s7159
+i"CXMLDocument.h"
+i<libxml/parser.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/myproject/NearBy/Classes/CXMLDocument_CreationExtensions.h
+c000000004D8DD9C30000000000000814
+t1301141955
+s2068
+i"CXMLDocument.h"
+
+N/myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m
+c000000004BD1C1580000000000000720
+t1272037720
+s1824
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.h
+c000000004BD1C15800000000000005FE
+t1272037720
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m
+c000000004BD1C158000000000000067A
+t1272037720
+s1658
+i"CXMLDocument_PrivateExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLElement.h
+c000000004BD1C158000000000000078C
+t1272037720
+s1932
+i"CXMLNode.h"
+
+N/myproject/NearBy/Classes/CXMLElement.m
+c000000004BD1C158000000000000112F
+t1272037720
+s4399
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLElement_CreationExtensions.h
+c000000004BD1C158000000000000059D
+t1272037720
+s1437
+i"CXMLElement.h"
+
+N/myproject/NearBy/Classes/CXMLElement_CreationExtensions.m
+c000000004BD1C1580000000000000850
+t1272037720
+s2128
+i"CXMLElement_CreationExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.h
+c000000004BD1C1580000000000000580
+t1272037720
+s1408
+i"CXMLElement.h"
+
+N/myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m
+c000000004BD1C1580000000000000668
+t1272037720
+s1640
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLNode.h
+c000000004BD1C1580000000000000B07
+t1272037720
+s2823
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/myproject/NearBy/Classes/CXMLNode.m
+c000000004BD1C1580000000000002257
+t1272037720
+s8791
+i"CXMLNode.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i<libxml/xmlIO.h>
+
+N/myproject/NearBy/Classes/CXMLNode_CreationExtensions.h
+c000000004BD1C1580000000000000954
+t1272037720
+s2388
+i"CXMLNode.h"
+
+N/myproject/NearBy/Classes/CXMLNode_CreationExtensions.m
+c000000004BD1C1580000000000000FE7
+t1272037720
+s4071
+i"CXMLNode_CreationExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLNode_PrivateExtensions.h
+c000000004BD1C1580000000000000624
+t1272037720
+s1572
+i"CXMLNode.h"
+
+N/myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m
+c000000004BD1C1580000000000000A9F
+t1272037720
+s2719
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/myproject/NearBy/Classes/CXMLNode_XPathExtensions.h
+c000000004BD1C15800000000000005FC
+t1272037720
+s1532
+i"CXMLNode.h"
+
+N/myproject/NearBy/Classes/CXMLNode_XPathExtensions.m
+c000000004BD1C1580000000000000B1C
+t1272037720
+s2844
+i"CXMLNode_XPathExtensions.h"
+i"CXMLDocument.h"
+i"CXMLNode_PrivateExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/myproject/NearBy/Classes/DisplayMap.h
+c000000004D8DAED400000000000001DF
+t1301130964
+s479
+i<Foundation/Foundation.h>
+i<MapKit/MKAnnotation.h>
+
+N/myproject/NearBy/Classes/DisplayMap.m
+c000000004D8DAED0000000000000010E
+t1301130960
+s270
+i"DisplayMap.h"
+
+N/myproject/NearBy/Classes/EGORefreshTableHeaderView.h
+c000000004D8D770D0000000000000435
+t1301116685
+s1077
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/myproject/NearBy/Classes/EGORefreshTableHeaderView.m
+c000000004D884E00000000000000202F
+t1300778496
+s8239
+i"EGORefreshTableHeaderView.h"
+
+N/myproject/NearBy/Classes/FirstViewController.h
+c000000004D8D589300000000000000DB
+t1301108883
+s219
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/FirstViewController.m
+c000000004D8D589300000000000005A0
+t1301108883
+s1440
+i"FirstViewController.h"
+
+N/myproject/NearBy/Classes/MessageNearBy.h
+c000000004D8D7113000000000000023A
+t1301115155
+s570
+i<UIKit/UIKit.h>
+i"EGORefreshTableHeaderView.h"
+
+N/myproject/NearBy/Classes/MessageNearBy.m
+c000000004D8D6F0400000000000012D7
+t1301114628
+s4823
+i"MessageNearBy.h"
+
+N/myproject/NearBy/Classes/MessageNearBy.xib
+c000000004D8EA6430000000000004849
+t1301194307
+s18505
+
+N/myproject/NearBy/Classes/MessageNearByController.h
+c000000004D9048C40000000000000345
+t1301301444
+s837
+i<UIKit/UIKit.h>
+i"EGORefreshTableHeaderView.h"
+
+N/myproject/NearBy/Classes/MessageNearByController.m
+c000000004D95A14A00000000000014FD
+t1301651786
+s5373
+i"MessageNearByController.h"
+
+N/myproject/NearBy/Classes/More.h
+c000000004D8D65A300000000000000BD
+t1301112227
+s189
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/More.m
+c000000004D8D65A3000000000000053D
+t1301112227
+s1341
+i"More.h"
+
+N/myproject/NearBy/Classes/More.xib
+c000000004D8D65EC0000000000004077
+t1301112300
+s16503
+
+N/myproject/NearBy/Classes/NearByAppDelegate.h
+c000000004D8D60EF00000000000001C8
+t1301111023
+s456
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/NearByAppDelegate.m
+c000000004D8D589300000000000003A8
+t1301108883
+s936
+i"NearByAppDelegate.h"
+
+N/myproject/NearBy/Classes/PeopleInMap.h
+c000000004D8D5B5D0000000000000141
+t1301109597
+s321
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/myproject/NearBy/Classes/PeopleInMap.m
+c000000004D8D5C930000000000000588
+t1301109907
+s1416
+i"PeopleInMap.h"
+
+N/myproject/NearBy/Classes/PeopleInMap.xib
+c000000004D904DCD0000000000005806
+t1301302733
+s22534
+
+N/myproject/NearBy/Classes/PeopleInMapController.h
+c000000004D904DB70000000000000306
+t1301302711
+s774
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<CoreLocation/CoreLocation.h>
+i"DisplayMap.h"
+
+N/myproject/NearBy/Classes/PeopleInMapController.m
+c000000004D9696590000000000002121
+t1301714521
+s8481
+i"PeopleInMapController.h"
+i"DisplayMap.h"
+i"ASIHTTPRequest.h"
+i"ASIFormDataRequest.h"
+i<libxml/parser.h>
+i"TouchXML.h"
+
+N/myproject/NearBy/Classes/PeopleList.h
+c000000004D8D5D5C00000000000000C9
+t1301110108
+s201
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/PeopleList.m
+c000000004D8D5D5C000000000000054F
+t1301110108
+s1359
+i"PeopleList.h"
+
+N/myproject/NearBy/Classes/PeopleList.xib
+c000000004D8D61D70000000000003C8E
+t1301111255
+s15502
+
+N/myproject/NearBy/Classes/PrivateMessage.h
+c000000004D8D65C000000000000000D1
+t1301112256
+s209
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/PrivateMessage.m
+c000000004D8D6A15000000000000055B
+t1301113365
+s1371
+i"PrivateMessage.h"
+
+N/myproject/NearBy/Classes/PrivateMessage.xib
+c000000004D8D65D60000000000004096
+t1301112278
+s16534
+
+N/myproject/NearBy/Classes/SecondViewController.h
+c000000004D8D6014000000000000031D
+t1301110804
+s797
+i<UIKit/UIKit.h>
+i"EGORefreshTableHeaderView.h"
+
+N/myproject/NearBy/Classes/SecondViewController.m
+c000000004D8D601200000000000012EF
+t1301110802
+s4847
+i"SecondViewController.h"
+
+N/myproject/NearBy/Classes/TableCellMessageController.xib
+c000000004DA0965A0000000000005FCC
+t1302369882
+s24524
+
+N/myproject/NearBy/Classes/TableCellViewMessage.h
+c000000004D8EB6B10000000000000201
+t1301198513
+s513
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/TableCellViewMessage.m
+c000000004D8EAF2F000000000000032D
+t1301196591
+s813
+i"TableCellViewMessage.h"
+
+N/myproject/NearBy/Classes/TouchXML.h
+c000000004BD1C15800000000000005F3
+t1272037720
+s1523
+i"CXMLDocument.h"
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLNode.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNode_XPathExtensions.h"
+
+N/myproject/NearBy/Classes/UserMessageCell.xib
+c000000004D8EAB5500000000000044E1
+t1301195605
+s17633
+
+N/myproject/NearBy/Classes/UserMessageCellController.h
+c000000004D8EAB8400000000000001FF
+t1301195652
+s511
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/UserMessageCellController.m
+c000000004D8EAB8C00000000000005EB
+t1301195660
+s1515
+i"UserMessageCellController.h"
+
+N/myproject/NearBy/Classes/UserMessageCellController.xib
+c000000004D8EA79D0000000000001886
+t1301194653
+s6278
+
+N/myproject/NearBy/Classes/UserMessageController.h
+c000000004D8ECAD400000000000001FF
+t1301203668
+s511
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/UserMessageController.m
+c000000004DB909FD0000000000000CFF
+t1303972349
+s3327
+i"UserMessageController.h"
+
+N/myproject/NearBy/Classes/UserMessageController.xib
+c000000004D8EC90B00000000000067CC
+t1301203211
+s26572
+
+N/myproject/NearBy/Classes/UserMessageDetailController.h
+c000000004D8EA42E00000000000000EB
+t1301193774
+s235
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/UserMessageDetailController.m
+c000000004D8EA42C0000000000000582
+t1301193772
+s1410
+i"UserMessageDetailController.h"
+
+N/myproject/NearBy/Classes/UserMessageDetailController.xib
+c000000004D8EB39D0000000000006223
+t1301197725
+s25123
+
+N/myproject/NearBy/Classes/WebBrowserController.h
+c000000004D9030A80000000000000147
+t1301295272
+s327
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/WebBrowserController.m
+c000000004D9030D500000000000005A7
+t1301295317
+s1447
+i"WebBrowserController.h"
+
+N/myproject/NearBy/Classes/WebBrowserController.xib
+c000000004D9030EA00000000000041BE
+t1301295338
+s16830
+
+N/myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.h
+c000000004D4224D80000000000000453
+t1296180440
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m
+c000000004D4224D80000000000003DED
+t1296180440
+s15853
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASICacheDelegate.h
+c000000004D4224D800000000000011D1
+t1296180440
+s4561
+i<Foundation/Foundation.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.h
+c000000004D4224D8000000000000072C
+t1296180440
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m
+c000000004D4224D80000000000001AAE
+t1296180440
+s6830
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.h
+c000000004D4224D800000000000006A3
+t1296180440
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m
+c000000004D4224D80000000000001969
+t1296180440
+s6505
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.h
+c000000004D4224D80000000000000804
+t1296180440
+s2052
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m
+c000000004D4224D8000000000000420D
+t1296180440
+s16909
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.h
+c000000004D4224D80000000000000A6D
+t1296180440
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m
+c000000004D4224D80000000000002B6A
+t1296180440
+s11114
+i"ASIFormDataRequest.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.h
+c000000004D4224D8000000000000A9CB
+t1296180440
+s43467
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m
+c000000004D4224D80000000000028476
+t1296180440
+s164982
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIHTTPRequestConfig.h
+c000000004D4224D800000000000003B0
+t1296180440
+s944
+
+N/myproject/NearBy/Classes/asi_http_request/ASIHTTPRequestDelegate.h
+c000000004D4224D8000000000000063E
+t1296180440
+s1598
+
+N/myproject/NearBy/Classes/asi_http_request/ASIInputStream.h
+c000000004D4224D800000000000003C9
+t1296180440
+s969
+i<Foundation/Foundation.h>
+
+N/myproject/NearBy/Classes/asi_http_request/ASIInputStream.m
+c000000004D4224D80000000000000C14
+t1296180440
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.h
+c000000004D4224D8000000000000120D
+t1296180440
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m
+c000000004D4224D80000000000002C8D
+t1296180440
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/myproject/NearBy/Classes/asi_http_request/ASIProgressDelegate.h
+c000000004D4224D80000000000000678
+t1296180440
+s1656
+
+N/myproject/NearBy/Classes/asi_http_request/Reachability.h
+c000000004D4224D80000000000001D0E
+t1296180440
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/myproject/NearBy/Classes/asi_http_request/Reachability.m
+c000000004D4224D80000000000005E0C
+t1296180440
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/myproject/NearBy/Classes/blackArrow.png
+c000000004CFD225B00000000000010DC
+t1291657819
+s4316
+
+N/myproject/NearBy/Classes/blackArrow@2x.png
+c000000004CFD225B0000000000000650
+t1291657819
+s1616
+
+N/myproject/NearBy/Classes/blueArrow.png
+c000000004CFD225B000000000000118C
+t1291657819
+s4492
+
+N/myproject/NearBy/Classes/blueArrow@2x.png
+c000000004CFD225B00000000000005F9
+t1291657819
+s1529
+
+N/myproject/NearBy/Default.png
+c000000004D005F97000000000001F46F
+t1291870103
+s128111
+
+N/myproject/NearBy/MainWindow.xib
+c000000004DB57D600000000000008254
+t1303739744
+s33364
+
+N/myproject/NearBy/NearBy_Prefix.pch
+c000000004D8D589300000000000000B5
+t1301108883
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/SecondView.xib
+c000000004D8D589300000000000022EE
+t1301108883
+s8942
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app
+t1302052857
+s918
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM
+t1302052856
+s102
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/0.jpeg
+t1301193082
+s5482
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/Default.png
+t1301109909
+s132363
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist
+t1301108892
+s626
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/MainWindow.nib
+t1301199656
+s4957
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/MessageNearBy.nib
+t1301194476
+s1517
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/More.nib
+t1301112373
+s1636
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+t1302052856
+s431760
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/PeopleInMap.nib
+t1301302737
+s1831
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/PeopleList.nib
+t1301111332
+s1150
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/PkgInfo
+t1301108892
+s8
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/PrivateMessage.nib
+t1301112374
+s1637
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/ResourceRules.plist
+t1301108892
+s485
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/SecondView.nib
+t1301108892
+s2510
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/TableCellMessageController.nib
+t1301203533
+s3156
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageCell.nib
+t1301195682
+s2193
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageCellController.nib
+t2
+s0
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageController.nib
+t1301203217
+s3032
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageDetailController.nib
+t1301197746
+s3647
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/WebBrowserController.nib
+t1301302520
+s1404
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow.png
+t1301116616
+s4012
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow@2x.png
+t1301116616
+s1583
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow.png
+t1301116616
+s4190
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow@2x.png
+t1301116616
+s2096
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+t1301108893
+s7263
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+t1301108893
+s319
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+t1301141931
+s102208
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataCompressor.o
+t1301141931
+s25200
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataDecompressor.o
+t1301141931
+s25100
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDownloadCache.o
+t1301141932
+s64540
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIFormDataRequest.o
+t1301141932
+s48180
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIHTTPRequest.o
+t1301141934
+s471796
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIInputStream.o
+t1301141932
+s28232
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASINetworkQueue.o
+t1301141932
+s62844
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CTidy.o
+t1301142345
+s4000
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument.o
+t1301141932
+s27192
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_CreationExtensions.o
+t1301141957
+s10868
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_PrivateExtensions.o
+t1301141932
+s9764
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement.o
+t1301141933
+s14840
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_CreationExtensions.o
+t1301141932
+s13656
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_ElementTreeExtensions.o
+t1301141933
+s9532
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode.o
+t1301141933
+s41540
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_CreationExtensions.o
+t1301141933
+s19448
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_PrivateExtensions.o
+t1301141933
+s14976
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_XPathExtensions.o
+t1301141933
+s17812
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/DisplayMap.o
+t1301141931
+s13260
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/EGORefreshTableHeaderView.o
+t1301141931
+s41360
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o
+t1301108893
+s29460
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearBy.o
+t1301114774
+s51856
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearByController.o
+t1302052854
+s55232
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/More.o
+t1301141931
+s29236
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearBy.LinkFileList
+c000000004D904DD10000000000000D02
+t1301302737
+s3330
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o
+t1301141931
+s43560
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMap.o
+t1301109909
+s31704
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMapController.o
+t1302052855
+s71644
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleList.o
+t1301110805
+s29324
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PrivateMessage.o
+t1301141931
+s29384
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/Reachability.o
+t1301141932
+s35864
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/SecondViewController.o
+t1301110805
+s51108
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/TableCellViewMessage.o
+t1301199231
+s21172
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageCellController.o
+t1301195539
+s16392
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageController.o
+t1302052854
+s37672
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageDetailController.o
+t1301194077
+s29580
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/WebBrowserController.o
+t1301302520
+s31272
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o
+t1301141931
+s6524
+
+N/myproject/NearBy/main.m
+c000000004D8D58930000000000000156
+t1301108883
+s342
+i<UIKit/UIKit.h>
+
+N/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch
+t1301108893
+s7876792
+
+N/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch.gch
+t1301141930
+s7876792
+
+NNearBy-Info.plist
+c000000004D8D5893000000000000038D
+t1301108883
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323745651#323745652#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+s323745656.526260
+e323745657.544424
+r1
+xCodeSign
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/NearBy.app323745656#323745657#0(0"0(0#0#49"/myproject/NearBy/build/Debug-iphoneos/NearBy.app4300885448#564"    cd /myproject/NearBy    setenv CODESIGN_ALLOCATE /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: han hao (62779L6HCK)" --resource-rules=/myproject/NearBy/build/Debug-iphoneos/NearBy.app/ResourceRules.plist --entitlements /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIAuthenticationDialog.o /myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.478748
+e322834731.782711
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+x/myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m322834731#322834731#0(0"0(0#0#68"/myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m4300885448#1654"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIAuthenticationDialog.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIAuthenticationDialog.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataCompressor.o /myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.603704
+e322834731.719268
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataCompressor.o
+x/myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m322834731#322834731#0(0"0(0#0#62"/myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m4300885448#1642"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIDataCompressor.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataCompressor.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataDecompressor.o /myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.719376
+e322834731.855779
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataDecompressor.o
+x/myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m322834731#322834731#0(0"0(0#0#64"/myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m4300885448#1646"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIDataDecompressor.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDataDecompressor.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDownloadCache.o /myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.782811
+e322834732.043454
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDownloadCache.o
+x/myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m322834731#322834732#0(0"0(0#0#61"/myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m4300885448#1640"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIDownloadCache.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIDownloadCache.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIFormDataRequest.o /myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.855883
+e322834732.074799
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIFormDataRequest.o
+x/myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m322834731#322834732#0(0"0(0#0#63"/myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m4300885448#1644"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIFormDataRequest.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIFormDataRequest.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIHTTPRequest.o /myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.043662
+e322834734.066052
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIHTTPRequest.o
+x/myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m322834732#322834734#0(0"0(0#0#59"/myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m4300885448#1636"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIHTTPRequest.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIHTTPRequest.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIInputStream.o /myproject/NearBy/Classes/asi_http_request/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.074905
+e322834732.171894
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIInputStream.o
+x/myproject/NearBy/Classes/asi_http_request/ASIInputStream.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /myproject/NearBy/Classes/asi_http_request/ASIInputStream.m322834732#322834732#0(0"0(0#0#59"/myproject/NearBy/Classes/asi_http_request/ASIInputStream.m4300885448#1636"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASIInputStream.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASIInputStream.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASINetworkQueue.o /myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.171999
+e322834732.372356
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASINetworkQueue.o
+x/myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m322834732#322834732#0(0"0(0#0#60"/myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m4300885448#1638"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/ASINetworkQueue.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/ASINetworkQueue.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CTidy.o /myproject/NearBy/Classes/CTidy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322835145.369607
+e322835145.456738
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CTidy.o
+x/myproject/NearBy/Classes/CTidy.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /myproject/NearBy/Classes/CTidy.m322835145#322835145#0(0"0(0#0#33"/myproject/NearBy/Classes/CTidy.m4300885448#1601"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CTidy.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CTidy.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument.o /myproject/NearBy/Classes/CXMLDocument.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.686735
+e322834732.815078
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument.o
+x/myproject/NearBy/Classes/CXMLDocument.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/myproject/NearBy/Classes/CXMLDocument.m: In function '-[CXMLDocument XMLStringWithOptions:]':
+o/myproject/NearBy/Classes/CXMLDocument.m:229: warning: no '-_XMLStringWithOptions:appendingToString:' method found
+o/myproject/NearBy/Classes/CXMLDocument.m:229: warning: (Messages without a matching method signature
+o/myproject/NearBy/Classes/CXMLDocument.m:229: warning: will be assumed to return 'id' and accept
+o/myproject/NearBy/Classes/CXMLDocument.m:229: warning: '...' as arguments.)
+lSLF07#2@48"Compile /myproject/NearBy/Classes/CXMLDocument.m322834732#322834732#0(484"/myproject/NearBy/Classes/CXMLDocument.m: In function '-[CXMLDocument XMLStringWithOptions:]':/myproject/NearBy/Classes/CXMLDocument.m:229: warning: no '-_XMLStringWithOptions:appendingToString:' method found/myproject/NearBy/Classes/CXMLDocument.m:229: warning: (Messages without a matching method signature/myproject/NearBy/Classes/CXMLDocument.m:229: warning: will be assumed to return 'id' and accept/myproject/NearBy/Classes/CXMLDocument.m:229: warning: '...' as arguments.)2(22@59"No '-_XMLStringWithOptions:appendingToString:' method found322834732#95#115#0(6@40"/myproject/NearBy/Classes/CXMLDocument.m293730520#229#0#229#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322834732#210#101#0(6@40"/myproject/NearBy/Classes/CXMLDocument.m293730520#229#0#229#0#0"0(0#0#40"/myproject/NearBy/Classes/CXMLDocument.m4300885448#1615"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLDocument.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_CreationExtensions.o /myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834757.054093
+e322834757.129423
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_CreationExtensions.o
+x/myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m322834757#322834757#0(0"0(0#0#59"/myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m4300885448#1653"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLDocument_CreationExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_CreationExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_PrivateExtensions.o /myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.575827
+e322834732.686631
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_PrivateExtensions.o
+x/myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m322834732#322834732#0(0"0(0#0#58"/myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m4300885448#1651"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLDocument_PrivateExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLDocument_PrivateExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement.o /myproject/NearBy/Classes/CXMLElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834733.026155
+e322834733.127984
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement.o
+x/myproject/NearBy/Classes/CXMLElement.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /myproject/NearBy/Classes/CXMLElement.m322834733#322834733#0(0"0(0#0#39"/myproject/NearBy/Classes/CXMLElement.m4300885448#1613"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLElement.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_CreationExtensions.o /myproject/NearBy/Classes/CXMLElement_CreationExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.815216
+e322834732.917187
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_CreationExtensions.o
+x/myproject/NearBy/Classes/CXMLElement_CreationExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /myproject/NearBy/Classes/CXMLElement_CreationExtensions.m322834732#322834732#0(0"0(0#0#58"/myproject/NearBy/Classes/CXMLElement_CreationExtensions.m4300885448#1651"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLElement_CreationExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_CreationExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_ElementTreeExtensions.o /myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.917294
+e322834733.026057
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_ElementTreeExtensions.o
+x/myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m322834732#322834733#0(0"0(0#0#61"/myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m4300885448#1657"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLElement_ElementTreeExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLElement_ElementTreeExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode.o /myproject/NearBy/Classes/CXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834733.383254
+e322834733.552294
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode.o
+x/myproject/NearBy/Classes/CXMLNode.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /myproject/NearBy/Classes/CXMLNode.m322834733#322834733#0(0"0(0#0#36"/myproject/NearBy/Classes/CXMLNode.m4300885448#1607"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLNode.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_CreationExtensions.o /myproject/NearBy/Classes/CXMLNode_CreationExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834733.626953
+e322834733.794569
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_CreationExtensions.o
+x/myproject/NearBy/Classes/CXMLNode_CreationExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /myproject/NearBy/Classes/CXMLNode_CreationExtensions.m322834733#322834733#0(0"0(0#0#55"/myproject/NearBy/Classes/CXMLNode_CreationExtensions.m4300885448#1645"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLNode_CreationExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_CreationExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_PrivateExtensions.o /myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834733.128095
+e322834733.252583
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_PrivateExtensions.o
+x/myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m322834733#322834733#0(0"0(0#0#54"/myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m4300885448#1643"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLNode_PrivateExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_PrivateExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_XPathExtensions.o /myproject/NearBy/Classes/CXMLNode_XPathExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834733.252728
+e322834733.383156
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_XPathExtensions.o
+x/myproject/NearBy/Classes/CXMLNode_XPathExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /myproject/NearBy/Classes/CXMLNode_XPathExtensions.m322834733#322834733#0(0"0(0#0#52"/myproject/NearBy/Classes/CXMLNode_XPathExtensions.m4300885448#1639"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/CXMLNode_XPathExtensions.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/CXMLNode_XPathExtensions.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/DisplayMap.o /myproject/NearBy/Classes/DisplayMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.385638
+e322834731.478645
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/DisplayMap.o
+x/myproject/NearBy/Classes/DisplayMap.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /myproject/NearBy/Classes/DisplayMap.m322834731#322834731#0(0"0(0#0#38"/myproject/NearBy/Classes/DisplayMap.m4300885448#1611"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/DisplayMap.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/DisplayMap.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/EGORefreshTableHeaderView.o /myproject/NearBy/Classes/EGORefreshTableHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.384635
+e322834731.603600
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/EGORefreshTableHeaderView.o
+x/myproject/NearBy/Classes/EGORefreshTableHeaderView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /myproject/NearBy/Classes/EGORefreshTableHeaderView.m322834731#322834731#0(0"0(0#0#53"/myproject/NearBy/Classes/EGORefreshTableHeaderView.m4300885448#1641"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/EGORefreshTableHeaderView.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/EGORefreshTableHeaderView.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o /myproject/NearBy/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322801693.387339
+e322801693.438297
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o
+x/myproject/NearBy/Classes/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /myproject/NearBy/Classes/FirstViewController.m322801693#322801693#0(0"0(0#0#47"/myproject/NearBy/Classes/FirstViewController.m4300885448#1531"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/FirstViewController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearBy.o /myproject/NearBy/Classes/MessageNearBy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322807574.039178
+e322807574.122409
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearBy.o
+x/myproject/NearBy/Classes/MessageNearBy.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /myproject/NearBy/Classes/MessageNearBy.m322807574#322807574#0(0"0(0#0#41"/myproject/NearBy/Classes/MessageNearBy.m4300885448#1519"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/MessageNearBy.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearBy.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearByController.o /myproject/NearBy/Classes/MessageNearByController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323745653.482670
+e323745654.675952
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearByController.o
+x/myproject/NearBy/Classes/MessageNearByController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/myproject/NearBy/Classes/MessageNearByController.m: In function '-[MessageNearByController tableView:cellForRowAtIndexPath:]':
+o/myproject/NearBy/Classes/MessageNearByController.m:100: warning: distinct Objective-C type in return
+o/myproject/NearBy/Classes/MessageNearByController.m: In function '-[MessageNearByController tableView:didSelectRowAtIndexPath:]':
+o/myproject/NearBy/Classes/MessageNearByController.m:122: warning: passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type
+lSLF07#2@59"Compile /myproject/NearBy/Classes/MessageNearByController.m323745653#323745654#0(510"/myproject/NearBy/Classes/MessageNearByController.m: In function '-[MessageNearByController tableView:cellForRowAtIndexPath:]':/myproject/NearBy/Classes/MessageNearByController.m:100: warning: distinct Objective-C type in return/myproject/NearBy/Classes/MessageNearByController.m: In function '-[MessageNearByController tableView:didSelectRowAtIndexPath:]':/myproject/NearBy/Classes/MessageNearByController.m:122: warning: passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type2(22@35"Distinct Objective-C type in return323745654#128#102#0(6@51"/myproject/NearBy/Classes/MessageNearByController.m323344586#100#0#100#0#0"0(22@83"Passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type323745654#360#150#0(6@51"/myproject/NearBy/Classes/MessageNearByController.m323344586#122#0#122#0#0"0(0#0#51"/myproject/NearBy/Classes/MessageNearByController.m4300885448#1637"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/MessageNearByController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/MessageNearByController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/More.o /myproject/NearBy/Classes/More.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.298082
+e322834731.384366
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/More.o
+x/myproject/NearBy/Classes/More.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /myproject/NearBy/Classes/More.m322834731#322834731#0(0"0(0#0#32"/myproject/NearBy/Classes/More.m4300885448#1599"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/More.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/More.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o /myproject/NearBy/Classes/NearByAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.102530
+e322834731.179756
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o
+x/myproject/NearBy/Classes/NearByAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /myproject/NearBy/Classes/NearByAppDelegate.m322834731#322834731#0(0"0(0#0#45"/myproject/NearBy/Classes/NearByAppDelegate.m4300885448#1625"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/NearByAppDelegate.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMap.o /myproject/NearBy/Classes/PeopleInMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322802709.315301
+e322802709.375714
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMap.o
+x/myproject/NearBy/Classes/PeopleInMap.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /myproject/NearBy/Classes/PeopleInMap.m322802709#322802709#0(0"0(0#0#39"/myproject/NearBy/Classes/PeopleInMap.m4300885448#1515"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/PeopleInMap.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMap.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMapController.o /myproject/NearBy/Classes/PeopleInMapController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323745652.848714
+e323745655.205006
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMapController.o
+x/myproject/NearBy/Classes/PeopleInMapController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/myproject/NearBy/Classes/PeopleInMapController.m: In function '-[PeopleInMapController requestFinished:]':
+o/myproject/NearBy/Classes/PeopleInMapController.m:107: warning: unused variable 'username'
+o/myproject/NearBy/Classes/PeopleInMapController.m: In function '-[PeopleInMapController showDetails:]':
+o/myproject/NearBy/Classes/PeopleInMapController.m:184: warning: passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type
+lSLF07#2@57"Compile /myproject/NearBy/Classes/PeopleInMapController.m323745652#323745655#0(451"/myproject/NearBy/Classes/PeopleInMapController.m: In function '-[PeopleInMapController requestFinished:]':/myproject/NearBy/Classes/PeopleInMapController.m:107: warning: unused variable 'username'/myproject/NearBy/Classes/PeopleInMapController.m: In function '-[PeopleInMapController showDetails:]':/myproject/NearBy/Classes/PeopleInMapController.m:184: warning: passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type2(22@26"Unused variable 'username'323745655#108#91#0(6@49"/myproject/NearBy/Classes/PeopleInMapController.m323407321#107#0#107#0#19"unused variable '*'0(22@83"Passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type323745655#303#148#0(6@49"/myproject/NearBy/Classes/PeopleInMapController.m323407321#184#0#184#0#0"0(0#0#49"/myproject/NearBy/Classes/PeopleInMapController.m4300885448#1633"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/PeopleInMapController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleInMapController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleList.o /myproject/NearBy/Classes/PeopleList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322803605.394643
+e322803605.461329
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleList.o
+x/myproject/NearBy/Classes/PeopleList.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /myproject/NearBy/Classes/PeopleList.m322803605#322803605#0(0"0(0#0#38"/myproject/NearBy/Classes/PeopleList.m4300885448#1513"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/PeopleList.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PeopleList.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PrivateMessage.o /myproject/NearBy/Classes/PrivateMessage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.305442
+e322834731.384543
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PrivateMessage.o
+x/myproject/NearBy/Classes/PrivateMessage.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /myproject/NearBy/Classes/PrivateMessage.m322834731#322834731#0(0"0(0#0#42"/myproject/NearBy/Classes/PrivateMessage.m4300885448#1619"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/PrivateMessage.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/PrivateMessage.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/Reachability.o /myproject/NearBy/Classes/asi_http_request/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834732.372458
+e322834732.575718
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/Reachability.o
+x/myproject/NearBy/Classes/asi_http_request/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /myproject/NearBy/Classes/asi_http_request/Reachability.m322834732#322834732#0(0"0(0#0#57"/myproject/NearBy/Classes/asi_http_request/Reachability.m4300885448#1632"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/asi_http_request/Reachability.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/SecondViewController.o /myproject/NearBy/Classes/SecondViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322803605.461433
+e322803605.583774
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/SecondViewController.o
+x/myproject/NearBy/Classes/SecondViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/myproject/NearBy/Classes/SecondViewController.m:220: warning: incomplete implementation of class 'SecondViewController'
+o/myproject/NearBy/Classes/SecondViewController.m:220: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/myproject/NearBy/Classes/SecondViewController.m:220: warning: class 'SecondViewController' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@56"Compile /myproject/NearBy/Classes/SecondViewController.m322803605#322803605#0(406"/myproject/NearBy/Classes/SecondViewController.m:220: warning: incomplete implementation of class 'SecondViewController'/myproject/NearBy/Classes/SecondViewController.m:220: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/myproject/NearBy/Classes/SecondViewController.m:220: warning: class 'SecondViewController' does not fully implement the 'UITableViewDataSource' protocol3(22@57"Incomplete implementation of class 'SecondViewController'322803605#0#121#0(6@48"/myproject/NearBy/Classes/SecondViewController.m322803602#220#0#220#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found322803605#121#131#0(6@48"/myproject/NearBy/Classes/SecondViewController.m322803602#220#0#220#0#35"method definition for '*' not found0(22@90"Class 'SecondViewController' does not fully implement the 'UITableViewDataSource' protocol322803605#252#154#0(6@48"/myproject/NearBy/Classes/SecondViewController.m322803602#220#0#220#0#51"class '*' does not fully implement the '*' protocol0(0#0#48"/myproject/NearBy/Classes/SecondViewController.m4300885448#1533"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/SecondViewController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/SecondViewController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/TableCellViewMessage.o /myproject/NearBy/Classes/TableCellViewMessage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322892031.868750
+e322892031.925512
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/TableCellViewMessage.o
+x/myproject/NearBy/Classes/TableCellViewMessage.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /myproject/NearBy/Classes/TableCellViewMessage.m322892031#322892031#0(0"0(0#0#48"/myproject/NearBy/Classes/TableCellViewMessage.m4300885448#1631"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/TableCellViewMessage.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/TableCellViewMessage.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageCellController.o /myproject/NearBy/Classes/UserMessageCellController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322888339.230791
+e322888339.327566
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageCellController.o
+x/myproject/NearBy/Classes/UserMessageCellController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/myproject/NearBy/Classes/UserMessageCellController.m: In function '-[UserMessageCellController didReceiveMemoryWarning]':
+o/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: 'UITableViewCell' may not respond to '-didReceiveMemoryWarning'
+o/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: (Messages without a matching method signature
+o/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: will be assumed to return 'id' and accept
+o/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: '...' as arguments.)
+lSLF07#2@61"Compile /myproject/NearBy/Classes/UserMessageCellController.m322888339#322888339#0(564"/myproject/NearBy/Classes/UserMessageCellController.m: In function '-[UserMessageCellController didReceiveMemoryWarning]':/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: 'UITableViewCell' may not respond to '-didReceiveMemoryWarning'/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: (Messages without a matching method signature/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: will be assumed to return 'id' and accept/myproject/NearBy/Classes/UserMessageCellController.m:47: warning: '...' as arguments.)2(22@63"'UITableViewCell' may not respond to '-didReceiveMemoryWarning'322888339#123#131#0(6@53"/myproject/NearBy/Classes/UserMessageCellController.m322888184#47#0#47#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322888339#254#113#0(6@53"/myproject/NearBy/Classes/UserMessageCellController.m322888184#47#0#47#0#0"0(0#0#53"/myproject/NearBy/Classes/UserMessageCellController.m4300885448#1641"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/UserMessageCellController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageCellController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageController.o /myproject/NearBy/Classes/UserMessageController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323745654.714887
+e323745654.893299
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageController.o
+x/myproject/NearBy/Classes/UserMessageController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/myproject/NearBy/Classes/UserMessageController.m: In function '-[UserMessageController tableView:cellForRowAtIndexPath:]':
+o/myproject/NearBy/Classes/UserMessageController.m:74: warning: local declaration of 'tableView' hides instance variable
+o/myproject/NearBy/Classes/UserMessageController.m:85: warning: distinct Objective-C type in return
+lSLF07#2@57"Compile /myproject/NearBy/Classes/UserMessageController.m323745654#323745654#0(343"/myproject/NearBy/Classes/UserMessageController.m: In function '-[UserMessageController tableView:cellForRowAtIndexPath:]':/myproject/NearBy/Classes/UserMessageController.m:74: warning: local declaration of 'tableView' hides instance variable/myproject/NearBy/Classes/UserMessageController.m:85: warning: distinct Objective-C type in return2(22@56"Local declaration of 'tableView' hides instance variable323745654#124#120#0(6@49"/myproject/NearBy/Classes/UserMessageController.m323403860#74#0#74#0#0"0(22@35"Distinct Objective-C type in return323745654#244#99#0(6@49"/myproject/NearBy/Classes/UserMessageController.m323403860#85#0#85#0#0"0(0#0#49"/myproject/NearBy/Classes/UserMessageController.m4300885448#1633"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/UserMessageController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageDetailController.o /myproject/NearBy/Classes/UserMessageDetailController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322886877.340918
+e322886877.405189
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageDetailController.o
+x/myproject/NearBy/Classes/UserMessageDetailController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /myproject/NearBy/Classes/UserMessageDetailController.m322886877#322886877#0(0"0(0#0#55"/myproject/NearBy/Classes/UserMessageDetailController.m4300885448#1645"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/UserMessageDetailController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/UserMessageDetailController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/WebBrowserController.o /myproject/NearBy/Classes/WebBrowserController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322995320.809571
+e322995320.875452
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/WebBrowserController.o
+x/myproject/NearBy/Classes/WebBrowserController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /myproject/NearBy/Classes/WebBrowserController.m322995320#322995320#0(0"0(0#0#48"/myproject/NearBy/Classes/WebBrowserController.m4300885448#1631"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/Classes/WebBrowserController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/WebBrowserController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o /myproject/NearBy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834731.101537
+e322834731.158750
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o
+x/myproject/NearBy/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Compile /myproject/NearBy/main.m322834731#322834731#0(0"0(0#0#24"/myproject/NearBy/main.m4300885448#1591"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch -c /myproject/NearBy/main.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /myproject/NearBy/Classes/MessageNearBy.xib
+s322887276.390540
+e322887276.706801
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/MessageNearBy.xib
+lSLF07#2@36"CompileXIB Classes/MessageNearBy.xib322887276#322887276#0(0"0(0#0#43"/myproject/NearBy/Classes/MessageNearBy.xib4300885448#430"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/MessageNearBy.nib /myproject/NearBy/Classes/MessageNearBy.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/More.xib
+s322805173.503668
+e322805173.812019
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/More.xib
+lSLF07#2@27"CompileXIB Classes/More.xib322805173#322805173#0(0"0(0#0#34"/myproject/NearBy/Classes/More.xib4300885448#412"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/More.nib /myproject/NearBy/Classes/More.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/PeopleInMap.xib
+s322995537.407274
+e322995537.745514
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/PeopleInMap.xib
+lSLF07#2@34"CompileXIB Classes/PeopleInMap.xib322995537#322995537#0(0"0(0#0#41"/myproject/NearBy/Classes/PeopleInMap.xib4300885448#426"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/PeopleInMap.nib /myproject/NearBy/Classes/PeopleInMap.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/PeopleList.xib
+s322804131.870489
+e322804132.150235
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/PeopleList.xib
+lSLF07#2@33"CompileXIB Classes/PeopleList.xib322804131#322804132#0(0"0(0#0#40"/myproject/NearBy/Classes/PeopleList.xib4300885448#424"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/PeopleList.nib /myproject/NearBy/Classes/PeopleList.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/PrivateMessage.xib
+s322805173.812105
+e322805174.107280
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/PrivateMessage.xib
+lSLF07#2@37"CompileXIB Classes/PrivateMessage.xib322805173#322805174#0(0"0(0#0#44"/myproject/NearBy/Classes/PrivateMessage.xib4300885448#432"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/PrivateMessage.nib /myproject/NearBy/Classes/PrivateMessage.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/TableCellMessageController.xib
+s322896333.148745
+e322896333.500093
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/TableCellMessageController.xib
+lSLF07#2@49"CompileXIB Classes/TableCellMessageController.xib322896333#322896333#0(0"0(0#0#56"/myproject/NearBy/Classes/TableCellMessageController.xib4300885448#456"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/TableCellMessageController.nib /myproject/NearBy/Classes/TableCellMessageController.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/UserMessageCell.xib
+s322888482.125672
+e322888482.485291
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/UserMessageCell.xib
+lSLF07#2@38"CompileXIB Classes/UserMessageCell.xib322888482#322888482#0(0"0(0#0#45"/myproject/NearBy/Classes/UserMessageCell.xib4300885448#434"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageCell.nib /myproject/NearBy/Classes/UserMessageCell.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/UserMessageCellController.xib
+r0
+
+CCompileXIB /myproject/NearBy/Classes/UserMessageController.xib
+s322896016.906127
+e322896017.372457
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/UserMessageController.xib
+lSLF07#2@44"CompileXIB Classes/UserMessageController.xib322896016#322896017#0(0"0(0#0#51"/myproject/NearBy/Classes/UserMessageController.xib4300885448#446"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageController.nib /myproject/NearBy/Classes/UserMessageController.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/UserMessageDetailController.xib
+s322890545.818497
+e322890546.183619
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/UserMessageDetailController.xib
+lSLF07#2@50"CompileXIB Classes/UserMessageDetailController.xib322890545#322890546#0(0"0(0#0#57"/myproject/NearBy/Classes/UserMessageDetailController.xib4300885448#458"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/UserMessageDetailController.nib /myproject/NearBy/Classes/UserMessageDetailController.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/WebBrowserController.xib
+s322995320.065646
+e322995320.447212
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/WebBrowserController.xib
+lSLF07#2@43"CompileXIB Classes/WebBrowserController.xib322995320#322995320#0(0"0(0#0#50"/myproject/NearBy/Classes/WebBrowserController.xib4300885448#444"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/WebBrowserController.nib /myproject/NearBy/Classes/WebBrowserController.xib0#
+
+CCompileXIB /myproject/NearBy/MainWindow.xib
+s322892456.189718
+e322892456.634125
+r1
+xCompileXIB
+x/myproject/NearBy/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322892456#322892456#0(0"0(0#0#32"/myproject/NearBy/MainWindow.xib4300885448#416"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/MainWindow.nib /myproject/NearBy/MainWindow.xib0#
+
+CCompileXIB /myproject/NearBy/SecondView.xib
+s322801692.374139
+e322801692.772921
+r1
+xCompileXIB
+x/myproject/NearBy/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib322801692#322801692#0(0"0(0#0#32"/myproject/NearBy/SecondView.xib4300885448#416"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/SecondView.nib /myproject/NearBy/SecondView.xib0#
+
+CCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Default.png Default.png
+s322802708.355564
+e322802709.314936
+r1
+xCopyPNGFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/Default.png
+xDefault.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/NearBy.app/Default.png Default.png322802708#322802709#0(0"0(0#0#29"/myproject/NearBy/Default.png4300885448#514"    cd /myproject/NearBy    setenv COPY_COMMAND /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer-old/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /myproject/NearBy/Default.png /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Default.png0#
+
+CCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow.png Classes/blackArrow.png
+s322809416.838692
+e322809416.923202
+r1
+xCopyPNGFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow.png
+xClasses/blackArrow.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/NearBy.app/blackArrow.png Classes/blackArrow.png322809416#322809416#0(0"0(0#0#40"/myproject/NearBy/Classes/blackArrow.png4300885448#528"    cd /myproject/NearBy    setenv COPY_COMMAND /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer-old/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /myproject/NearBy/Classes/blackArrow.png /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow.png0#
+
+CCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow@2x.png Classes/blackArrow@2x.png
+s322809416.839579
+e322809416.930259
+r1
+xCopyPNGFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow@2x.png
+xClasses/blackArrow@2x.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/NearBy.app/blackArrow@2x.png Classes/blackArrow@2x.png322809416#322809416#0(0"0(0#0#43"/myproject/NearBy/Classes/blackArrow@2x.png4300885448#534"    cd /myproject/NearBy    setenv COPY_COMMAND /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer-old/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /myproject/NearBy/Classes/blackArrow@2x.png /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blackArrow@2x.png0#
+
+CCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow.png Classes/blueArrow.png
+s322809416.924341
+e322809416.956070
+r1
+xCopyPNGFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow.png
+xClasses/blueArrow.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/NearBy.app/blueArrow.png Classes/blueArrow.png322809416#322809416#0(0"0(0#0#39"/myproject/NearBy/Classes/blueArrow.png4300885448#526"    cd /myproject/NearBy    setenv COPY_COMMAND /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer-old/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /myproject/NearBy/Classes/blueArrow.png /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow.png0#
+
+CCopyPNGFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow@2x.png Classes/blueArrow@2x.png
+s322809416.930350
+e322809416.962245
+r1
+xCopyPNGFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow@2x.png
+xClasses/blueArrow@2x.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/NearBy.app/blueArrow@2x.png Classes/blueArrow@2x.png322809416#322809416#0(0"0(0#0#42"/myproject/NearBy/Classes/blueArrow@2x.png4300885448#532"    cd /myproject/NearBy    setenv COPY_COMMAND /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer-old/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /myproject/NearBy/Classes/blueArrow@2x.png /myproject/NearBy/build/Debug-iphoneos/NearBy.app/blueArrow@2x.png0#
+
+CCpResource build/Debug-iphoneos/NearBy.app/0.jpeg Classes/0.jpeg
+s322885882.105512
+e322885882.231550
+r1
+xCpResource
+xbuild/Debug-iphoneos/NearBy.app/0.jpeg
+xClasses/0.jpeg
+lSLF07#2@19"Copy Classes/0.jpeg322885882#322885882#0(0"0(0#0#32"/myproject/NearBy/Classes/0.jpeg4300885448#392"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /myproject/NearBy/Classes/0.jpeg /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+
+CCpResource build/Debug-iphoneos/NearBy.app/ResourceRules.plist /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s322801692.363191
+e322801692.371206
+r1
+xCpResource
+xbuild/Debug-iphoneos/NearBy.app/ResourceRules.plist
+x/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@100"Copy /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist322801692#322801692#0(0"0(0#0#95"/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300885448#455"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+
+CGenerateDSYMFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+s323745656.229666
+e323745656.497227
+r1
+xGenerateDSYMFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/NearBy.app.dSYM build/Debug-iphoneos/NearBy.app/NearBy323745656#323745656#0(0"0(0#0#56"/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy4300885448#308"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/dsymutil /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM0#
+
+CLd /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy normal armv6
+s323745655.205149
+e323745656.229424
+r1
+xLd
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+xnormal
+xarmv6
+lSLF07#2@61"Link /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy323745655#323745656#0(0"0(0#0#0"4300885448#997"    cd /myproject/NearBy    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/myproject/NearBy/build/Debug-iphoneos -F/myproject/NearBy/build/Debug-iphoneos -filelist /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearBy.LinkFileList -mmacosx-version-min=10.5 -dead_strip -lxml2 -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework QuartzCore -framework CoreLocation -framework CFNetwork -framework Security -framework MobileCoreServices -framework SystemConfiguration -lz.1.2.3 -lxml2.2.7.3 -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy0#
+
+CProcessInfoPlistFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist NearBy-Info.plist
+s322801692.364006
+e322801692.373344
+r1
+xProcessInfoPlistFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist
+xNearBy-Info.plist
+lSLF07#2@25"Process NearBy-Info.plist322801692#322801692#0(0"0(0#0#35"/myproject/NearBy/NearBy-Info.plist4300885448#482"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NearBy-Info.plist -genpkginfo /myproject/NearBy/build/Debug-iphoneos/NearBy.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/ResourceRules.plist -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist0#
+
+CProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322801692.822455
+e322801693.339328
+r1
+xProcessPCH
+x/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch
+xNearBy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile NearBy_Prefix.pch322801692#322801693#0(0"0(0#0#35"/myproject/NearBy/NearBy_Prefix.pch4300885448#1413"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -c /myproject/NearBy/NearBy_Prefix.pch -o /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322834730.462858
+e322834731.101425
+r1
+xProcessPCH
+x/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch.gch
+xNearBy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile NearBy_Prefix.pch322834730#322834731#0(0"0(0#0#35"/myproject/NearBy/NearBy_Prefix.pch4300885448#1511"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -c /myproject/NearBy/NearBy_Prefix.pch -o /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gymaetiauhlnvbfaxlwmalkfhsay/NearBy_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" /myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+s322801693.487981
+e322801693.504078
+r1
+xProcessProductPackaging
+x/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" build/Debug-iphoneos/NearBy.app/embedded.mobileprovision322801693#322801693#0(0"0(0#0#74"/myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision4300885448#394"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+s322801693.511610
+e322801693.529167
+r1
+xProcessProductPackaging
+x/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent322801693#322801693#0(0"0(0#0#77"/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent4300885448#401"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent0#
+
+CTouch /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+s323745656.497422
+e323745656.526041
+r1
+xTouch
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app
+lSLF07#2@55"Touch /myproject/NearBy/build/Debug-iphoneos/NearBy.app323745656#323745656#0(0"0(0#0#0"4300885448#229"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+

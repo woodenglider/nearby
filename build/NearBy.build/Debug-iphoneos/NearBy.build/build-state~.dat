@@ -1,0 +1,321 @@
+TNearBy
+v7
+r0
+t322801693.678398
+cCheck dependencies
+cCpResource build/Debug-iphoneos/NearBy.app/ResourceRules.plist /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist NearBy-Info.plist
+cCompileXIB /myproject/NearBy/MainWindow.xib
+cCompileXIB /myproject/NearBy/SecondView.xib
+cProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o /myproject/NearBy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o /myproject/NearBy/Classes/NearByAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o /myproject/NearBy/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy normal armv6
+cGenerateDSYMFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+cProcessProductPackaging "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" /myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+cTouch /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+cProcessProductPackaging /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+cCodeSign /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B2FA6BF0000000000000110
+t1261414079
+s272
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+c000000004B2B3B9F00000000000000DD
+t1261124511
+s221
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision
+c000000004D8C963D0000000000001C5F
+t1301059133
+s7263
+
+N/myproject/NearBy/Classes/FirstViewController.h
+c000000004D8D589300000000000000DB
+t1301108883
+s219
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/FirstViewController.m
+c000000004D8D589300000000000005A0
+t1301108883
+s1440
+i"FirstViewController.h"
+
+N/myproject/NearBy/Classes/NearByAppDelegate.h
+c000000004D8D589300000000000001C8
+t1301108883
+s456
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/NearByAppDelegate.m
+c000000004D8D589300000000000003A8
+t1301108883
+s936
+i"NearByAppDelegate.h"
+
+N/myproject/NearBy/MainWindow.xib
+c000000004D8D58930000000000004211
+t1301108883
+s16913
+
+N/myproject/NearBy/NearBy_Prefix.pch
+c000000004D8D589300000000000000B5
+t1301108883
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/SecondView.xib
+c000000004D8D589300000000000022EE
+t1301108883
+s8942
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app
+t1301108893
+s374
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM
+t1301108893
+s102
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist
+t1301108892
+s626
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/MainWindow.nib
+t1301108892
+s4044
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+t1301108893
+s15852
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/PkgInfo
+t1301108892
+s8
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/ResourceRules.plist
+t1301108892
+s485
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/SecondView.nib
+t1301108892
+s2510
+
+N/myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+t1301108893
+s7263
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+t1301108893
+s319
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o
+t1301108893
+s29460
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearBy.LinkFileList
+c000000004D8D589C0000000000000133
+t1301108892
+s307
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o
+t1301108893
+s43560
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o
+t1301108893
+s6524
+
+N/myproject/NearBy/main.m
+c000000004D8D58930000000000000156
+t1301108883
+s342
+i<UIKit/UIKit.h>
+
+N/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch
+t1301108893
+s7876792
+
+NNearBy-Info.plist
+c000000004D8D5893000000000000038D
+t1301108883
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322801692#322801692#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+s322801693.529254
+e322801693.678360
+r1
+xCodeSign
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/NearBy.app322801693#322801693#0(0"0(0#0#49"/myproject/NearBy/build/Debug-iphoneos/NearBy.app4300885448#564"    cd /myproject/NearBy    setenv CODESIGN_ALLOCATE /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: han hao (62779L6HCK)" --resource-rules=/myproject/NearBy/build/Debug-iphoneos/NearBy.app/ResourceRules.plist --entitlements /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o /myproject/NearBy/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322801693.387339
+e322801693.438297
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o
+x/myproject/NearBy/Classes/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /myproject/NearBy/Classes/FirstViewController.m322801693#322801693#0(0"0(0#0#47"/myproject/NearBy/Classes/FirstViewController.m4300885448#1531"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/FirstViewController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/FirstViewController.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o /myproject/NearBy/Classes/NearByAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322801693.341229
+e322801693.414528
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o
+x/myproject/NearBy/Classes/NearByAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /myproject/NearBy/Classes/NearByAppDelegate.m322801693#322801693#0(0"0(0#0#45"/myproject/NearBy/Classes/NearByAppDelegate.m4300885448#1527"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/Classes/NearByAppDelegate.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearByAppDelegate.o0#
+
+CCompileC build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o /myproject/NearBy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322801693.339587
+e322801693.387230
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o
+x/myproject/NearBy/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Compile /myproject/NearBy/main.m322801693#322801693#0(0"0(0#0#24"/myproject/NearBy/main.m4300885448#1493"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch -c /myproject/NearBy/main.m -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /myproject/NearBy/MainWindow.xib
+s322801692.373432
+e322801692.822337
+r1
+xCompileXIB
+x/myproject/NearBy/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322801692#322801692#0(0"0(0#0#32"/myproject/NearBy/MainWindow.xib4300885448#416"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/MainWindow.nib /myproject/NearBy/MainWindow.xib0#
+
+CCompileXIB /myproject/NearBy/SecondView.xib
+s322801692.374139
+e322801692.772921
+r1
+xCompileXIB
+x/myproject/NearBy/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib322801692#322801692#0(0"0(0#0#32"/myproject/NearBy/SecondView.xib4300885448#416"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/SecondView.nib /myproject/NearBy/SecondView.xib0#
+
+CCpResource build/Debug-iphoneos/NearBy.app/ResourceRules.plist /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s322801692.363191
+e322801692.371206
+r1
+xCpResource
+xbuild/Debug-iphoneos/NearBy.app/ResourceRules.plist
+x/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@100"Copy /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist322801692#322801692#0(0"0(0#0#95"/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300885448#455"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+
+CGenerateDSYMFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+s322801693.463567
+e322801693.487832
+r1
+xGenerateDSYMFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/NearBy.app.dSYM build/Debug-iphoneos/NearBy.app/NearBy322801693#322801693#0(0"0(0#0#56"/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy4300885448#308"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/dsymutil /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app.dSYM0#
+
+CLd /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy normal armv6
+s322801693.438388
+e322801693.463472
+r1
+xLd
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy
+xnormal
+xarmv6
+lSLF07#2@61"Link /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy322801693#322801693#0(0"0(0#0#0"4300885448#801"    cd /myproject/NearBy    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/myproject/NearBy/build/Debug-iphoneos -F/myproject/NearBy/build/Debug-iphoneos -filelist /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/Objects-normal/armv6/NearBy.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app/NearBy0#
+
+CProcessInfoPlistFile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist NearBy-Info.plist
+s322801692.364006
+e322801692.373344
+r1
+xProcessInfoPlistFile
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist
+xNearBy-Info.plist
+lSLF07#2@25"Process NearBy-Info.plist322801692#322801692#0(0"0(0#0#35"/myproject/NearBy/NearBy-Info.plist4300885448#482"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NearBy-Info.plist -genpkginfo /myproject/NearBy/build/Debug-iphoneos/NearBy.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /myproject/NearBy/build/Debug-iphoneos/NearBy.app/ResourceRules.plist -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app/Info.plist0#
+
+CProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322801692.822455
+e322801693.339328
+r1
+xProcessPCH
+x/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch
+xNearBy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile NearBy_Prefix.pch322801692#322801693#0(0"0(0#0#35"/myproject/NearBy/NearBy_Prefix.pch4300885448#1413"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphoneos -I/myproject/NearBy/build/Debug-iphoneos/include -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources/armv6 -I/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/DerivedSources -c /myproject/NearBy/NearBy_Prefix.pch -o /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-gwduqxhxigsfhjcdmsxypzenhxqk/NearBy_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" /myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+s322801693.487981
+e322801693.504078
+r1
+xProcessProductPackaging
+x/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" build/Debug-iphoneos/NearBy.app/embedded.mobileprovision322801693#322801693#0(0"0(0#0#74"/myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision4300885448#394"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/glider_21cn/Library/MobileDevice/Provisioning Profiles/FC309B18-F048-44C5-8B31-8B6500CDCF3E.mobileprovision" -o /myproject/NearBy/build/Debug-iphoneos/NearBy.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+s322801693.511610
+e322801693.529167
+r1
+xProcessProductPackaging
+x/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent322801693#322801693#0(0"0(0#0#77"/myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent4300885448#401"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /myproject/NearBy/build/NearBy.build/Debug-iphoneos/NearBy.build/NearBy.xcent0#
+
+CTouch /myproject/NearBy/build/Debug-iphoneos/NearBy.app
+s322801693.504826
+e322801693.511517
+r1
+xTouch
+x/myproject/NearBy/build/Debug-iphoneos/NearBy.app
+lSLF07#2@55"Touch /myproject/NearBy/build/Debug-iphoneos/NearBy.app322801693#322801693#0(0"0(0#0#0"4300885448#229"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /myproject/NearBy/build/Debug-iphoneos/NearBy.app0#
+

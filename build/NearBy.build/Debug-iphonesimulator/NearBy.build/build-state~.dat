@@ -1,0 +1,473 @@
+TNearBy
+v7
+r0
+t322809204.045560
+cCheck dependencies
+cProcessInfoPlistFile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/Info.plist NearBy-Info.plist
+cCompileXIB /myproject/NearBy/MainWindow.xib
+cCompileXIB /myproject/NearBy/Classes/PeopleInMap.xib
+cCpResource build/Debug-iphonesimulator/NearBy.app/Default.png Default.png
+cCompileXIB /myproject/NearBy/Classes/MessageNearBy.xib
+cCompileXIB /myproject/NearBy/Classes/More.xib
+cCompileXIB /myproject/NearBy/Classes/PrivateMessage.xib
+cProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/main.o /myproject/NearBy/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearByAppDelegate.o /myproject/NearBy/Classes/NearByAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PeopleInMapController.o /myproject/NearBy/Classes/PeopleInMapController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/MessageNearByController.o /myproject/NearBy/Classes/MessageNearByController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/More.o /myproject/NearBy/Classes/More.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PrivateMessage.o /myproject/NearBy/Classes/PrivateMessage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/EGORefreshTableHeaderView.o /myproject/NearBy/Classes/EGORefreshTableHeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy normal i386
+cGenerateDSYMFile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app.dSYM /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy
+cTouch /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004CEF162400000000000000EE
+t1290737188
+s238
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004B2B634C000000000000017D
+t1261134668
+s381
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004B2B6372000000000010EB60
+t1261134706
+s1108832
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B2B537F000000000000007D
+t1261130623
+s125
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B2B540C00000000000E5890
+t1261130764
+s940176
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/myproject/NearBy/Classes/EGORefreshTableHeaderView.h
+c000000004D884DD80000000000000435
+t1300778456
+s1077
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/myproject/NearBy/Classes/EGORefreshTableHeaderView.m
+c000000004D884E00000000000000202F
+t1300778496
+s8239
+i"EGORefreshTableHeaderView.h"
+
+N/myproject/NearBy/Classes/MessageNearBy.xib
+c000000004D8D71A2000000000000421B
+t1301115298
+s16923
+
+N/myproject/NearBy/Classes/MessageNearByController.h
+c000000004D8D71880000000000000244
+t1301115272
+s580
+i<UIKit/UIKit.h>
+i"EGORefreshTableHeaderView.h"
+
+N/myproject/NearBy/Classes/MessageNearByController.m
+c000000004D8D737600000000000012FA
+t1301115766
+s4858
+i"MessageNearByController.h"
+
+N/myproject/NearBy/Classes/More.h
+c000000004D8D65A300000000000000BD
+t1301112227
+s189
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/More.m
+c000000004D8D65A3000000000000053D
+t1301112227
+s1341
+i"More.h"
+
+N/myproject/NearBy/Classes/More.xib
+c000000004D8D65EC0000000000004077
+t1301112300
+s16503
+
+N/myproject/NearBy/Classes/NearByAppDelegate.h
+c000000004D8D60EF00000000000001C8
+t1301111023
+s456
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/NearByAppDelegate.m
+c000000004D8D589300000000000003A8
+t1301108883
+s936
+i"NearByAppDelegate.h"
+
+N/myproject/NearBy/Classes/PeopleInMap.xib
+c000000004D8D72E60000000000004253
+t1301115622
+s16979
+
+N/myproject/NearBy/Classes/PeopleInMapController.h
+c000000004D8D72A5000000000000014B
+t1301115557
+s331
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/myproject/NearBy/Classes/PeopleInMapController.m
+c000000004D8D72AD000000000000059C
+t1301115565
+s1436
+i"PeopleInMapController.h"
+
+N/myproject/NearBy/Classes/PrivateMessage.h
+c000000004D8D65C000000000000000D1
+t1301112256
+s209
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/Classes/PrivateMessage.m
+c000000004D8D6A15000000000000055B
+t1301113365
+s1371
+i"PrivateMessage.h"
+
+N/myproject/NearBy/Classes/PrivateMessage.xib
+c000000004D8D65D60000000000004096
+t1301112278
+s16534
+
+N/myproject/NearBy/Default.png
+c000000004D005F97000000000001F46F
+t1291870103
+s128111
+
+N/myproject/NearBy/MainWindow.xib
+c000000004D8D72F9000000000000AAF8
+t1301115641
+s43768
+
+N/myproject/NearBy/NearBy_Prefix.pch
+c000000004D8D589300000000000000B5
+t1301108883
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app
+t1301116404
+s374
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app.dSYM
+t1301116404
+s102
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/Default.png
+t1301116400
+s128111
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/Info.plist
+t1301116400
+s560
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/MainWindow.nib
+t1301116400
+s5492
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/MessageNearBy.nib
+t1301116401
+s1296
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/More.nib
+t1301116401
+s1636
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy
+t1301116404
+s40364
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/PeopleInMap.nib
+t1301116400
+s1578
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/PkgInfo
+t1301116400
+s8
+
+N/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/PrivateMessage.nib
+t1301116401
+s1637
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/EGORefreshTableHeaderView.o
+t1301116403
+s36264
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/MessageNearByController.o
+t1301116403
+s46088
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/More.o
+t1301116403
+s29716
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearBy.LinkFileList
+c000000004D8D75F00000000000000305
+t1301116400
+s773
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearByAppDelegate.o
+t1301116403
+s40832
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PeopleInMapController.o
+t1301116403
+s31784
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PrivateMessage.o
+t1301116403
+s29844
+
+N/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/main.o
+t1301116403
+s5928
+
+N/myproject/NearBy/main.m
+c000000004D8D58930000000000000156
+t1301108883
+s342
+i<UIKit/UIKit.h>
+
+N/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch.gch
+t1301116403
+s13039056
+
+NNearBy-Info.plist
+c000000004D8D5893000000000000038D
+t1301108883
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322809200#322809200#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/EGORefreshTableHeaderView.o /myproject/NearBy/Classes/EGORefreshTableHeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.661060
+e322809203.765750
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/EGORefreshTableHeaderView.o
+x/myproject/NearBy/Classes/EGORefreshTableHeaderView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /myproject/NearBy/Classes/EGORefreshTableHeaderView.m322809203#322809203#0(0"0(0#0#53"/myproject/NearBy/Classes/EGORefreshTableHeaderView.m4300885448#1674"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/Classes/EGORefreshTableHeaderView.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/EGORefreshTableHeaderView.o0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/MessageNearByController.o /myproject/NearBy/Classes/MessageNearByController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.326948
+e322809203.559261
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/MessageNearByController.o
+x/myproject/NearBy/Classes/MessageNearByController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /myproject/NearBy/Classes/MessageNearByController.m322809203#322809203#0(0"0(0#0#51"/myproject/NearBy/Classes/MessageNearByController.m4300885448#1670"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/Classes/MessageNearByController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/MessageNearByController.o0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/More.o /myproject/NearBy/Classes/More.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.559542
+e322809203.662405
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/More.o
+x/myproject/NearBy/Classes/More.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /myproject/NearBy/Classes/More.m322809203#322809203#0(0"0(0#0#32"/myproject/NearBy/Classes/More.m4300885448#1632"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/Classes/More.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/More.o0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearByAppDelegate.o /myproject/NearBy/Classes/NearByAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.151050
+e322809203.326843
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearByAppDelegate.o
+x/myproject/NearBy/Classes/NearByAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /myproject/NearBy/Classes/NearByAppDelegate.m322809203#322809203#0(0"0(0#0#45"/myproject/NearBy/Classes/NearByAppDelegate.m4300885448#1658"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/Classes/NearByAppDelegate.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearByAppDelegate.o0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PeopleInMapController.o /myproject/NearBy/Classes/PeopleInMapController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.313970
+e322809203.563944
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PeopleInMapController.o
+x/myproject/NearBy/Classes/PeopleInMapController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /myproject/NearBy/Classes/PeopleInMapController.m322809203#322809203#0(0"0(0#0#49"/myproject/NearBy/Classes/PeopleInMapController.m4300885448#1666"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/Classes/PeopleInMapController.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PeopleInMapController.o0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PrivateMessage.o /myproject/NearBy/Classes/PrivateMessage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.564045
+e322809203.660741
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PrivateMessage.o
+x/myproject/NearBy/Classes/PrivateMessage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /myproject/NearBy/Classes/PrivateMessage.m322809203#322809203#0(0"0(0#0#42"/myproject/NearBy/Classes/PrivateMessage.m4300885448#1652"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/Classes/PrivateMessage.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/PrivateMessage.o0#
+
+CCompileC build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/main.o /myproject/NearBy/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809203.149992
+e322809203.313848
+r1
+xCompileC
+xbuild/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/main.o
+x/myproject/NearBy/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Compile /myproject/NearBy/main.m322809203#322809203#0(0"0(0#0#24"/myproject/NearBy/main.m4300885448#1624"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -include /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch -c /myproject/NearBy/main.m -o /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /myproject/NearBy/Classes/MessageNearBy.xib
+s322809200.819329
+e322809201.154558
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/MessageNearBy.xib
+lSLF07#2@36"CompileXIB Classes/MessageNearBy.xib322809200#322809201#0(0"0(0#0#43"/myproject/NearBy/Classes/MessageNearBy.xib4300885448#444"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/MessageNearBy.nib /myproject/NearBy/Classes/MessageNearBy.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/More.xib
+s322809201.006800
+e322809201.333721
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/More.xib
+lSLF07#2@27"CompileXIB Classes/More.xib322809201#322809201#0(0"0(0#0#34"/myproject/NearBy/Classes/More.xib4300885448#426"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/More.nib /myproject/NearBy/Classes/More.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/PeopleInMap.xib
+s322809200.487524
+e322809200.818469
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/PeopleInMap.xib
+lSLF07#2@34"CompileXIB Classes/PeopleInMap.xib322809200#322809200#0(0"0(0#0#41"/myproject/NearBy/Classes/PeopleInMap.xib4300885448#440"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/PeopleInMap.nib /myproject/NearBy/Classes/PeopleInMap.xib0#
+
+CCompileXIB /myproject/NearBy/Classes/PrivateMessage.xib
+s322809201.154646
+e322809201.458157
+r1
+xCompileXIB
+x/myproject/NearBy/Classes/PrivateMessage.xib
+lSLF07#2@37"CompileXIB Classes/PrivateMessage.xib322809201#322809201#0(0"0(0#0#44"/myproject/NearBy/Classes/PrivateMessage.xib4300885448#446"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/PrivateMessage.nib /myproject/NearBy/Classes/PrivateMessage.xib0#
+
+CCompileXIB /myproject/NearBy/MainWindow.xib
+s322809200.485894
+e322809201.006710
+r1
+xCompileXIB
+x/myproject/NearBy/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/myproject/NearBy/MainWindow.xib:161: warning: This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.
+lSLF07#2@25"CompileXIB MainWindow.xib322809200#322809201#0(199"/* com.apple.ibtool.document.warnings *//myproject/NearBy/MainWindow.xib:161: warning: This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.1(22@110"This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.322809200#18446744073709551615#0#0(6@32"/myproject/NearBy/MainWindow.xib322808441#161#0#161#0#0"0(0#0#32"/myproject/NearBy/MainWindow.xib4300885448#430"    cd /myproject/NearBy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/MainWindow.nib /myproject/NearBy/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/NearBy.app/Default.png Default.png
+s322809200.818563
+e322809200.835025
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NearBy.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png322809200#322809200#0(0"0(0#0#29"/myproject/NearBy/Default.png4300885448#403"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /myproject/NearBy/Default.png /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app0#
+
+CGenerateDSYMFile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app.dSYM /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy
+s322809204.019718
+e322809204.042262
+r1
+xGenerateDSYMFile
+x/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app.dSYM
+x/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/NearBy.app.dSYM build/Debug-iphonesimulator/NearBy.app/NearBy322809204#322809204#0(0"0(0#0#63"/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy4300885448#329"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/dsymutil /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy -o /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app.dSYM0#
+
+CLd /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy normal i386
+s322809203.765860
+e322809204.019610
+r1
+xLd
+x/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy
+xnormal
+xi386
+lSLF07#2@68"Link /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy322809203#322809204#0(0"0(0#0#0"4300885448#810"    cd /myproject/NearBy    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/myproject/NearBy/build/Debug-iphonesimulator -F/myproject/NearBy/build/Debug-iphonesimulator -filelist /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/Objects-normal/i386/NearBy.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework QuartzCore -o /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/NearBy0#
+
+CProcessInfoPlistFile /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/Info.plist NearBy-Info.plist
+s322809200.425934
+e322809200.485808
+r1
+xProcessInfoPlistFile
+x/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/Info.plist
+xNearBy-Info.plist
+lSLF07#2@25"Process NearBy-Info.plist322809200#322809200#0(0"0(0#0#35"/myproject/NearBy/NearBy-Info.plist4300885448#421"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NearBy-Info.plist -genpkginfo /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app/Info.plist0#
+
+CProcessPCH /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch.gch NearBy_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322809201.458278
+e322809203.149811
+r1
+xProcessPCH
+x/var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch.gch
+xNearBy_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile NearBy_Prefix.pch322809201#322809203#0(0"0(0#0#35"/myproject/NearBy/NearBy_Prefix.pch4300885448#1538"    cd /myproject/NearBy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-generated-files.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-own-target-headers.hmap -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-all-target-headers.hmap -iquote /myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/NearBy-project-headers.hmap -F/myproject/NearBy/build/Debug-iphonesimulator -I/myproject/NearBy/build/Debug-iphonesimulator/include -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources/i386 -I/myproject/NearBy/build/NearBy.build/Debug-iphonesimulator/NearBy.build/DerivedSources -c /myproject/NearBy/NearBy_Prefix.pch -o /var/folders/oF/oFFg3V7CGmm-I+KDuBcFZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NearBy_Prefix-aovyltutdvoblkbbpstapkkzczvc/NearBy_Prefix.pch.gch0#
+
+CTouch /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app
+s322809204.042353
+e322809204.045378
+r1
+xTouch
+x/myproject/NearBy/build/Debug-iphonesimulator/NearBy.app
+lSLF07#2@62"Touch /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app322809204#322809204#0(0"0(0#0#0"4300885448#243"    cd /myproject/NearBy    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /myproject/NearBy/build/Debug-iphonesimulator/NearBy.app0#
+

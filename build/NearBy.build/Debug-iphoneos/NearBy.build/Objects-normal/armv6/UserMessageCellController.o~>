@@ -1,0 +1,6 @@
+/myproject/NearBy/Classes/UserMessageCellController.m:9:33: error: TableCellViewMessage.h: No such file or directory
+/myproject/NearBy/Classes/UserMessageCellController.m:45: warning: cannot find interface declaration for 'TableCellViewMessage'
+/myproject/NearBy/Classes/UserMessageCellController.m: In function '-[TableCellViewMessage didReceiveMemoryWarning]':
+/myproject/NearBy/Classes/UserMessageCellController.m:47: error: no super class declared in @interface for 'TableCellViewMessage'
+/myproject/NearBy/Classes/UserMessageCellController.m: In function '-[TableCellViewMessage dealloc]':
+/myproject/NearBy/Classes/UserMessageCellController.m:59: error: no super class declared in @interface for 'TableCellViewMessage'

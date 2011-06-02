@@ -1,0 +1,45 @@
+/myproject/NearBy/Classes/DisplayMap.m:11: error: reimplementation of class 'DisplayMap'
+/myproject/NearBy/Classes/DisplayMap.m:12: error: redefinition of '-[DisplayMap dealloc]'
+/myproject/NearBy/Classes/DisplayMap.h:26: error: previous definition of '-[DisplayMap dealloc]' was here
+/myproject/NearBy/Classes/DisplayMap.m:11: error: redefinition of '-[DisplayMap subtitle]'
+/myproject/NearBy/Classes/DisplayMap.h:25: error: previous definition of '-[DisplayMap subtitle]' was here
+/myproject/NearBy/Classes/DisplayMap.m:11: error: redefinition of '-[DisplayMap setSubtitle:]'
+/myproject/NearBy/Classes/DisplayMap.h:25: error: previous definition of '-[DisplayMap setSubtitle:]' was here
+/myproject/NearBy/Classes/DisplayMap.m:11: error: redefinition of '-[DisplayMap title]'
+/myproject/NearBy/Classes/DisplayMap.h:25: error: previous definition of '-[DisplayMap title]' was here
+/myproject/NearBy/Classes/DisplayMap.m:11: error: redefinition of '-[DisplayMap setTitle:]'
+/myproject/NearBy/Classes/DisplayMap.h:25: error: previous definition of '-[DisplayMap setTitle:]' was here
+/myproject/NearBy/Classes/DisplayMap.m:11: error: redefinition of '-[DisplayMap coordinate]'
+/myproject/NearBy/Classes/DisplayMap.h:25: error: previous definition of '-[DisplayMap coordinate]' was here
+/myproject/NearBy/Classes/DisplayMap.m:11: error: redefinition of '-[DisplayMap setCoordinate:]'
+/myproject/NearBy/Classes/DisplayMap.h:25: error: previous definition of '-[DisplayMap setCoordinate:]' was here
+{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.coordinate$non_lazy_ptr" minus "L35"
+{standard input}:370:symbol: "L_OBJC_IVAR_$_DisplayMap.coordinate$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:313:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.coordinate$non_lazy_ptr" minus "L30"
+{standard input}:313:symbol: "L_OBJC_IVAR_$_DisplayMap.coordinate$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:273:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr" minus "L25"
+{standard input}:273:symbol: "L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:222:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr" minus "L20"
+{standard input}:222:symbol: "L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:186:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.subtitle$non_lazy_ptr" minus "L15"
+{standard input}:186:symbol: "L_OBJC_IVAR_$_DisplayMap.subtitle$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:135:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.subtitle$non_lazy_ptr" minus "L10"
+{standard input}:135:symbol: "L_OBJC_IVAR_$_DisplayMap.subtitle$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:99:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L5"
+{standard input}:99:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:98:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L4"
+{standard input}:98:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+{standard input}:97:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"
+{standard input}:97:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:96:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr" minus "L2"
+{standard input}:96:symbol: "L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+{standard input}:unknown:Undefined local symbol L_objc_msgSendSuper2$stub
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_DisplayMap.title$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_DisplayMap.subtitle$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_objc_setProperty$stub
+{standard input}:unknown:Undefined local symbol L_memmove$stub
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_DisplayMap.coordinate$non_lazy_ptr
